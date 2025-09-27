@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Sfizz4Unreal",
+	"Description": "MIDI rendering in Metasounds through Sfizz ",
+	"Category": "Audio",
+	"CreatedBy": "Amir Ben-Kiki",
+	"CreatedByURL": "https://github.com/Amir-BK",
+	"DocsURL": "https://github.com/Amir-BK/Sfizz4Unreal",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Sfizz4Unreal",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Synthesis",
+			"Enabled": true
+		},
+		{
+			"Name": "Harmonix",
+			"Enabled": true
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		}
+	]
+}
